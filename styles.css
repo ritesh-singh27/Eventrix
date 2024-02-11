@@ -1,0 +1,170 @@
+/* Apply some basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #007bff;
+  /* Professional blue */
+  border-bottom: 7px solid #a4bdd7;
+  /* Add a blue underline */
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #a4bdd7;
+  /* Change text color on hover to blue */
+  text-decoration: underline;
+}
+
+/* Style for the image container */
+.img-fluid {
+  opacity: 62%;
+  display: block;
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  /* Maintain the aspect ratio */
+  max-height: auto;
+  /* Adjust the percentage to control the image height */
+}
+
+
+/* Style for the text overlay */
+.text-overlay {
+  background-color: aliceblue;
+  color: #76a0cc;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.event-text {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 250px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #4676a9;
+  text-shadow: 2px 0px 0px black;
+  /* Add a text shadow for better visibility */
+  z-index: 2;
+}
+
+/* Style the container */
+.container {
+  background-color: rgb(244, 242, 242);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+  background-color: rgb(250, 245, 245, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-blend-mode: lighten;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  text-align: center;
+  width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #a4bdd7;
+  /* Professional blue */
+  color: #ffffff;
+}
+
+/* Style the buttons */
+.btn {
+  margin: 0;
+  padding: 30px;
+}
+
+/* Style the "Add Event" button */
+#add {
+  background-color: #689fda;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#add:hover {
+  background-color: #0056b3;
+}
+
+/* Style the "Delete" buttons */
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #689fda;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Apply some spacing */
+.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Center the table */
+#items {
+  text-align: center;
+}
+
+/* Style the page title */
+h2 {
+  margin-bottom: 20px;
+}
+
+#map {
+  height: 400px;
+  margin: 0 auto;
+
+  border: 1px solid #ccc;
+}
